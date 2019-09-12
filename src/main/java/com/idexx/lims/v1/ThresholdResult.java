@@ -1,4 +1,11 @@
-package com.idexx.lims;
+package com.idexx.lims.v1;
+
+import com.idexx.lims.Animal;
+import com.idexx.lims.Sample;
+import com.idexx.lims.enums.Age;
+import com.idexx.lims.enums.InequalitySign;
+import com.idexx.lims.enums.ResultReferenceType;
+import com.idexx.lims.enums.Unit;
 
 import java.math.BigDecimal;
 

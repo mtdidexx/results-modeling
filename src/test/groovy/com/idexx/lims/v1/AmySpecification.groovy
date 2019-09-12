@@ -1,5 +1,12 @@
-package com.idexx.lims
+package com.idexx.lims.v1
 
+import com.idexx.lims.Animal
+import com.idexx.lims.Sample
+import com.idexx.lims.enums.InequalitySign
+import com.idexx.lims.enums.Unit
+import com.idexx.lims.v1.Assay
+import com.idexx.lims.v1.IntervalResult
+import com.idexx.lims.v1.ThresholdResult
 import spock.lang.Specification
 
 // AMY has both intervals and thresholds

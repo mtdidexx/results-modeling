@@ -1,4 +1,7 @@
-package com.idexx.lims;
+package com.idexx.lims.v1;
+
+import com.idexx.lims.enums.ResultReferenceType;
+import com.idexx.lims.enums.Unit;
 
 class Result {
     private String group;

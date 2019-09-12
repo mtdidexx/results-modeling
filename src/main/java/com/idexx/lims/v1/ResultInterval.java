@@ -1,4 +1,4 @@
-package com.idexx.lims;
+package com.idexx.lims.v1;
 
 import java.math.BigDecimal;
 

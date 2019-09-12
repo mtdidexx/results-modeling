@@ -18,4 +18,12 @@ public class Animal {
     public static Animal feline() {
         return new Animal("FELINE");
     }
+
+    public static Animal equine() {
+        return new Animal("EQUINE");
+    }
+
+    public static Animal bovine() {
+        return new Animal("BOVINE");
+    }
 }
