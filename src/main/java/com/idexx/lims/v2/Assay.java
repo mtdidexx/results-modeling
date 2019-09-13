@@ -1,11 +1,14 @@
 package com.idexx.lims.v2;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 class Assay {
     private String code;
+    @NotNull
     private List<Group> groups = new ArrayList<>();
 
     public Assay(String code) {
@@ -16,10 +19,12 @@ class Assay {
         return code;
     }
 
+    @NotNull
     public List<Group> getGroups() {
         return groups;
     }
 
+    @NotNull
     public Group addGroup(String groupKey) {
         Group group = new Group(groupKey);
         groups.add(group);
