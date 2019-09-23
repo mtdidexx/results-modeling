@@ -8,6 +8,8 @@ class Threshold extends ClinicalRelevance {
     private BigDecimal thresholdValue;
     private InequalitySign operator;
 
+    // TODO: Do we add Animal, Sample, Sex and Age to Threshold as well as to Interval? Or, can we push those 4 attributes up to ClinicalRelevance?
+
     public Threshold(Group group, BigDecimal thresholdValue, InequalitySign operator) {
         super(group);
         this.thresholdValue = thresholdValue;
